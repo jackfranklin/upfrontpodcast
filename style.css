@@ -108,6 +108,13 @@
         display: block;
     }
 
+    #logo {
+        width: 48px;
+        margin-top: -7px;
+    
+        margin-left: 20px;
+    }
+
     .avatar {
         width: 200px;
         height: 200px;
