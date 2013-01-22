@@ -1,0 +1,37 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>{{ page.title }}</title>
+	<meta name="description" content="An in-depth discussion on the latest tooling, workflow and best practices for frontend developers">
+
+	<script type="text/javascript" src="//use.typekit.net/hxl2ivz.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+	<div class="container">
+
+		<h1><a href="">Upfront Podcast <img id="logo" src="img/logo.png" /></a></h1>
+
+		<p id="large">An in-depth discussion on the latest tooling, workflow and best practices for front-end developers, brought to you every week by <a href="http://jackfranklin.co.uk/">Jack</a> and <a href="http://benhowdle.im">Ben</a>.</p>
+
+    {{ content }}
+
+	</div>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-3206068-20']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
+</body>
+</html>
