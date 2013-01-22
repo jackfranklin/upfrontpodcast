@@ -133,7 +133,7 @@
 
     .person {
         display: inline-block;
-        margin: 0 24px 12px 24px;
+        margin: 24px 24px 12px 24px;
         background-color: #23485c;
         border: 1px solid #30383c;
         /*border-radius: .25em;*/
