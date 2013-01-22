@@ -236,6 +236,10 @@
     margin-bottom: 12px;
 }
 
+.post ul li {
+    list-style-type: disc;
+}
+
 #show_notes {
     text-align: left;
     margin-top: 20px;
