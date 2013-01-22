@@ -11,6 +11,10 @@ title: Upfront Podcast
   <a href="http://twitter.com/benhowdle"><img class="avatar" src="img/ben.png"></a>
   <h2><a href="http://twitter.com/benhowdle">Ben Howdle</a></h2>
 </div>
-
 <a class="twitter" href="https://twitter.com/upfrontpodcast"><img src="img/twitter.png" /></a>
+{% assign first_post = site.posts.first %}
+<div id="latest-post" class="post">
+  <h3><a href="{{first_post.url}}">{{first_post.title}}</a></h3>
+  <p>{{first_post.content}}</p>
+</div>
 
