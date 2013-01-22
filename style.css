@@ -139,6 +139,12 @@
         /*border-radius: .25em;*/
     }
 
+    hr {
+        height: 1px;
+        background: #23485c;
+        opacity: 0.3;
+    }
+
     .person a {
         color: #fff;
     }
@@ -160,7 +166,7 @@
     }
 
     #podcasts {
-        margin-top: 30px;
+        margin: 40px 0;
     }
 
     .entries li h3 {
@@ -217,3 +223,7 @@
         top: 7px;
     }
 
+
+.tweet-link {
+    margin-top: 30px;
+}
