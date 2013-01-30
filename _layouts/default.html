@@ -1,7 +1,9 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/style.css">
-  <title>{{ page.title }}</title>
+	<link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="/mob.css" />
+	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="description" content="An in-depth discussion on the latest tooling, workflow and best practices for frontend developers">
 
 	<script type="text/javascript" src="//use.typekit.net/hxl2ivz.js"></script>
@@ -17,20 +19,20 @@
 
 		<hr />
 
-    {{ content }}
+		{{ content }}
 
 	</div>
 
 	<script type="text/javascript">
-   var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-3206068-20']);
-    _gaq.push(['_trackPageview']);
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-3206068-20']);
+	_gaq.push(['_trackPageview']);
 
-    (function() {
-     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
 	</script>
 
 </body>

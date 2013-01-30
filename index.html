@@ -5,36 +5,39 @@ title: Upfront Podcast
 
 {% assign first_post = site.posts.first %}
 <div id="latest-post" class="post">
-  <h3><a href="{{first_post.url}}">{{first_post.title}}</a></h3>
-  <p>{{first_post.content}}</p>
+	<h3><a href="{{first_post.url}}">{{first_post.title}}</a></h3>
+	<audio src="{{first_post.mp3_src}}" preload="auto" controls></audio>
+	<p>{{first_post.content}}</p>
 </div>
+
+
 
 <hr />
 
 
 <div id="podcasts">
 	<ul class="entries">
-	  {% for post in site.posts offset:1 %}
-	  <li>
-	    <a href="{{ post.url }}">
-	      <h3>{{ post.title }}</h3>
-	      <span>{{ post.date | date: "%d %B %Y" }}</span>
-	    </a>
-	  </li>
-	  {% endfor %}
+		{% for post in site.posts offset:1 %}
+		<li>
+			<a href="{{ post.url }}">
+				<h3>{{ post.title }}</h3>
+				<span>{{ post.date | date: "%d %B %Y" }}</span>
+			</a>
+		</li>
+		{% endfor %}
 	</ul>
 </div>
 
 <hr />
 
 <div id="jack" class="person">
-  <a href="http://twitter.com/jack_franklin"><img class="avatar" src="img/jack.png"></a>
-  <h2><a href="http://twitter.com/jack_franklin">Jack Franklin</a></h2>
+	<a href="http://twitter.com/jack_franklin"><img class="avatar" src="img/jack.png"></a>
+	<h2><a href="http://twitter.com/jack_franklin">Jack Franklin</a></h2>
 </div>
 
 <div id="ben" class="person">
-  <a href="http://twitter.com/benhowdle"><img class="avatar" src="img/ben.png"></a>
-  <h2><a href="http://twitter.com/benhowdle">Ben Howdle</a></h2>
+	<a href="http://twitter.com/benhowdle"><img class="avatar" src="img/ben.png"></a>
+	<h2><a href="http://twitter.com/benhowdle">Ben Howdle</a></h2>
 </div>
 
 <a class="twitter" href="https://twitter.com/upfrontpodcast"><img src="img/twitter.png" /></a>
