@@ -18,7 +18,7 @@ layout: none
     <itunes:name>Jack Franklin &amp; Ben Howdle</itunes:name>
     <itunes:email>benhowdle89@gmail.com</itunes:email>
   </itunes:owner>
-  <itunes:image href="{{ site.url }}img/logo.png" />
+  <itunes:image href="{{ site.url }}/img/logo.png" />
   <itunes:category text="Technology">
     <itunes:category text="Tech News"/>
   </itunes:category>
@@ -26,7 +26,7 @@ layout: none
     <item>
       <title>{{ post.title | replace:'&','&amp;' }}</title> 
       <description>{{ post.content | replace:'<!---extended-->','' | xml_escape }}</description>
-      <itunes:image href="{{ site.url }}img/logo.png" />
+      <itunes:image href="{{ site.url }}/img/logo.png" />
       <itunes:author>Jack Franklin &amp; Ben Howdle</itunes:author>
       <itunes:subtitle>{{ post.content | replace:'<!---extended-->','' | xml_escape }}</itunes:subtitle>
       <itunes:summary>{{ post.content | replace:'<!---extended-->','' | xml_escape }}</itunes:summary>
