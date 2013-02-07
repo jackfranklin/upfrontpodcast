@@ -271,3 +271,20 @@
         color: #fff !important;
         display: inline-block;
     }
+
+.via a {
+    float: right;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    line-height: 16px;
+    margin-left: 20px;
+}
+
+#itunes a {
+    background-image: url('img/itunes.png');
+}
+
+#rss a {
+    background-image: url('img/rss.png');   
+}
