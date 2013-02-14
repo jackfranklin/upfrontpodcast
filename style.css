@@ -138,8 +138,10 @@
 }
 
 .avatar {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 12px;
         /*-webkit-border-top-left-radius: .25em;
         -webkit-border-top-right-radius: .25em;
         -moz-border-radius-topleft: .25em;
@@ -149,11 +151,22 @@
     }
 
     .person {
-        display: inline-block;
         margin: 24px 24px 12px 24px;
         background-color: #23485c;
         border: 1px solid #30383c;
+        text-align: left;
+        padding: 12px;
+        overflow: auto;
         /*border-radius: .25em;*/
+    }
+
+    .person p {
+        color: #fff;
+    }
+
+    .person  h2 {
+        margin-top: 0;
+        margin-bottom: 6px;
     }
 
     hr {
