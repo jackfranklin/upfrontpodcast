@@ -184,6 +184,7 @@
         background-color: #23485c;
         border: 1px solid #30383c;
         color: #fff;
+        padding: 0 10px;
     }
 
     .entries li a {
