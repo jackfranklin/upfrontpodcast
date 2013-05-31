@@ -270,6 +270,9 @@
     .post ul li {
         list-style-type: disc;
     }
+    .post p {
+      margin: 5px 0;
+    }
 
     #show_notes {
         text-align: left;
